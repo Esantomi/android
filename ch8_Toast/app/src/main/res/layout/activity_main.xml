@@ -1,0 +1,32 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:id = "@+id/shortmsg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Short Message" />
+
+    <Button
+        android:id="@+id/longmsg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Long Message" />
+
+    <Button
+        android:id="@+id/count"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Count" />
+
+    <Button
+        android:id="@+id/customview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Custom View" />
+
+</LinearLayout>
+

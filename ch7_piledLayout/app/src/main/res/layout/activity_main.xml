@@ -1,0 +1,73 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="First Layout Start!"
+        android:textSize="30px"
+        android:typeface="serif"/>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#B2EBF4">
+        <TableRow>
+            <TextView
+                android:text="SUN"
+                android:textSize="30px"
+                android:padding="5dip"
+                android:textColor="#FF0000"/>
+            <TextView
+                android:text="MON"
+                android:textSize="30px"
+                android:padding="5dip"/>
+            <TextView
+                android:text="TUE"
+                android:textSize="30px"
+                android:padding="5dip"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:text="5"
+                android:textSize="30px"
+                android:padding="5dip"
+                android:textColor="#FF0000"/>
+            <TextView
+                android:text="6"
+                android:textSize="30px"
+                android:padding="5dip"/>
+            <TextView
+                android:text="7"
+                android:textSize="30px"
+                android:padding="5dip"/>
+        </TableRow>
+    </TableLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Second"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Layout"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+        android:text="TextView"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,28 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imageid1"
+        android:layout_width="400px"
+        android:layout_height="200px"
+        android:background="#cccccc"
+        android:src="@drawable/window"
+        android:padding="20dp"
+        android:scaleType="centerCrop"
+        android:cropToPadding="false" />
+
+    <ImageView
+        android:id="@+id/imageid2"
+        android:layout_width="400px"
+        android:layout_height="200px"
+        android:background="#3355ff"
+        android:src="@drawable/window"
+        android:padding="20dp"
+        android:scaleType="centerCrop"
+        android:cropToPadding="true" />
+
+</LinearLayout>

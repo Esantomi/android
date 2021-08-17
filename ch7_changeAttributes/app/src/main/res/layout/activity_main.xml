@@ -1,0 +1,59 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CodeLayout Example Test!!"
+        android:typeface="serif"
+        android:textSize="20sp"      />
+   <Button
+        android:id="@+id/buttonid1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Change Font Size"        />
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/layoutid"
+        tools:context=".MainActivity">
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Text1" />
+        <ImageView
+            android:id="@+id/imageid1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_launcher"/>
+        <Button
+            android:id="@+id/buttonid2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Change Orientation"/>
+    </LinearLayout>
+
+
+    <ImageView
+        android:id="@+id/imageid2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/ic_launcher"/>
+    <Button
+        android:id="@+id/buttonid3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Change Image Color"/>
+
+
+</LinearLayout>

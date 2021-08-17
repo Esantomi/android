@@ -1,0 +1,66 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="Layout_Gravity Test!!"
+        android:textSize="10pt"
+        android:layout_gravity="center"
+        android:background="#ABF200" />
+
+    <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:text="Layout_Gravity Test!! "-->
+        <!--android:textSize="10pt"-->
+        <!--android:layout_gravity="center"-->
+        <!--android:background="#ABF200"    />-->
+
+</LinearLayout>
+
+<!--<LinearLayout -->
+    <!--xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--xmlns:tools="http://schemas.android.com/tools"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:orientation="vertical" >-->
+    <!--<TextView -->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Layout_Gravity Test!!"-->
+        <!--android:textSize="10pt"-->
+        <!--android:layout_gravity="center"-->
+        <!--android:background="#ABF200" />-->
+    <!--<TextView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:text="Layout_Gravity Test!!"-->
+        <!--android:textSize="10pt"-->
+        <!--android:layout_gravity="center"-->
+        <!--android:background="#ABF200" />-->
+    <!--<TextView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:text="Layout_Gravity Test!!"-->
+        <!--android:textSize="10pt"-->
+        <!--android:gravity="center"-->
+        <!--android:background="#ABF200" />-->
+<!--</LinearLayout>-->
+
+<!--<LinearLayout-->
+    <!--xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--xmlns:tools="http://schemas.android.com/tools"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:gravity="center" >-->
+    <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Layout_Gravity Test!!"-->
+        <!--android:textSize="10pt"-->
+        <!--android:background="#ABF200" />-->
+<!--</LinearLayout>-->
